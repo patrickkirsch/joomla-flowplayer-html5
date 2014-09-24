@@ -1,4 +1,4 @@
-joomla-flowplayerr-html5
+joomla-flowplayer-html5
 ========================
 
 Joomla plugin for Flowplayer, with browser capability checks
