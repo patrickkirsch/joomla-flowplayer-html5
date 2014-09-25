@@ -86,7 +86,7 @@ class plgSystemFlowplayerReloaded extends JPlugin {
 
 		$alternative_webm = (isset($p['webm'])) ? $p['webm'] : null; // is filepath, chrome
 		$alternative_mp4 = (isset($p['mpfour'])) ? $p['mpfour'] : null; // is filepath, safari, apple, android
-		$alternative_ogg = (isset($p['mpfour'])) ? $p['mpfour'] : null; // is filepath, firefox
+		$alternative_ogg = (isset($p['ogg'])) ? $p['ogg'] : null; // is filepath, firefox
 
 		$width = (isset($p['width'])) ? $p['width'] : $this->params->get('width');
 		$height = (isset($p['height'])) ? $p['height'] : $this->params->get('height');
